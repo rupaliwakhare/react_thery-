@@ -1,0 +1,27 @@
+what is rendering?
+
+Rendering is the process of generating a visual output from code or data—essentially turning raw materials into something you can see on a screen. It’s used in everything from websites to video games, and even animated movies.
+
+In Web Development:
+
+Rendering refers to how HTML, CSS, and JavaScript are transformed into the visual webpage you interact with.
+
+It can happen on the client-side (in your browser) or server-side (on a remote server before sending to your browser).
+
+
+
+In Graphics & Games:
+
+
+Rendering is how 3D models, textures, and lighting data become realistic scenes and gameplay visuals.
+
+It includes processes like ray tracing (simulating light behavior) or rasterization (converting shapes into pixels).
+
+
+
+In Animation & Film:
+
+
+Rendering takes complex 3D scenes and turns them into frames of video or still images.
+
+Often uses powerful computers to handle lighting, shadows, reflections, and more.

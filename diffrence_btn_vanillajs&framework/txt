@@ -1,0 +1,25 @@
+Vanilla JavaScript:
+
+
+This is plain, pure JavaScript without any libraries or frameworks added. It’s just the core language—exactly how the browser understands it.
+
+You write everything yourself from scratch
+
+Full control over code structure and behavior
+
+No rules or conventions imposed
+
+Excellent for small projects or learning fundamentals
+
+
+JavaScript Frameworks (like React, Angular, Vue):
+
+These are pre-built tools that help you build complex apps faster and more efficiently.
+
+They come with patterns, rules, and built-in features (like routing, state management)
+
+Handle a lot of repetitive tasks for you
+
+Promote organized architecture and scalability
+
+Can be opinionated—meaning you need to follow their way of doing things

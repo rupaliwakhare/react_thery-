@@ -1,0 +1,85 @@
+In React, components are the building blocks of the user interface. They let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+
+🧩 Types of Components in React
+
+
+1. Functional Components
+Defined as JavaScript functions.
+
+Simpler and preferred for most use cases.
+
+Can use Hooks (like useState, useEffect) for state and lifecycle features.
+
+jsx
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+
+2. Class Components
+
+Defined using ES6 classes.
+
+Can hold internal state and lifecycle methods.
+
+Less commonly used now due to Hooks.
+
+jsx
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+
+
+
+
+🛠️ Key Concepts of React Components
+🔄 Props (Properties)
+
+
+Passed from parent to child component.
+
+Read-only data used to customize components.
+
+jsx
+<Welcome name="Alice" />
+📦 State
+
+
+Internal data managed by the component.
+
+Can change over time and trigger re-renders.
+
+jsx
+const [count, setCount] = useState(0);
+
+
+🔁 Lifecycle (Class Components)
+Methods like componentDidMount, componentDidUpdate, componentWillUnmount.
+
+Used to run code at specific points in a component’s life.
+
+🧱 Component Composition
+Components can contain other components.
+
+Encourages reuse and clean architecture.
+
+jsx
+function App() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+
+
+🎯 Why Components Matter
+Promote reusability and separation of concerns.
+
+Make code easier to test, maintain, and scale.
+
+Enable declarative UI development.
